@@ -1,0 +1,67 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 40px;
+    border: 1px solid #aaa;
+    background-color: #99D8E0;
+}
+
+form {
+    margin-top: 40px;
+}
+
+fieldset legend {
+    background: white;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 0 0 20px;
+    border: 1px solid #454545;
+    border-top: none;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #CD6A67;
+    display: block;
+    width: 50%;
+    padding: 2%;
+    color: white; 
+    border: 1px solid #454545;
+    border-bottom: none;
+}
+
+input[type="submit"] {
+    background: none;
+    border: 1px solid #777;
+    background-color: #F6AD5C;
+    height: 40px;
+    padding: 0 40px;
+    color: white;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
